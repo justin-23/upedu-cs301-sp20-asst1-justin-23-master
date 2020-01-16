@@ -8,6 +8,6 @@ public class SquareToken extends SimpleMapToken {
     }
 
     public void drawOn(Canvas canvas) {
-        canvas.drawRect(x - radius, y - radius, radius, radius, paint);
+        canvas.drawRect(x - radius, y - radius, x + radius, y + radius, paint);
     }
 }
