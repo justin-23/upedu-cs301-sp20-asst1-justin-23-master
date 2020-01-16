@@ -1,1 +1,10 @@
 This file should contain descriptions of all the outside resources you used on doing this assignment, as was discussed on class.
+
+15 January, 2020
+
+https://developer.android.com/reference/android/graphics/Color
+I used this for general reference on color manipulation because I was unfamiliar with it.
+
+https://stackoverflow.com/questions/6822888/android-canvas-draw-line-make-the-line-thicker
+I did not know how to change the size of the line, which I used to create depth for the cube tokens.
+After this, I realized I could use the suggustions provided by Android Studio to find methods or properties I needed.

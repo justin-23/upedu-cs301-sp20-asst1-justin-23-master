@@ -12,8 +12,8 @@ import java.util.Random;
  *
  * @author Andrew M. Nuxoll
  * @author Steven R. Vegdahl
- * @author <your name here>
- * @version August 2015
+ * @author Justin Lee
+ * @version January 2020
  */
 public class SimpleMapToken {
 
