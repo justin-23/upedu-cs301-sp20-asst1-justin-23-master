@@ -3,6 +3,7 @@ package edu.up.cs301.campusMap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
+import java.util.Random;
 
 /**
  * <!-- class SimpleMapToken -->
@@ -21,17 +22,24 @@ public class SimpleMapToken {
     protected float y; // my y coordinate
     protected float radius; //my radius
     protected Paint paint;  //my color
-
+    private int pickColor() {
+        Random rand = new Random();
+        int red = rand.nextInt(255);
+        int green = rand.nextInt(255);
+        int blue = rand.nextInt(255);
+        return Color.rgb(red, green, blue);
+    }
     /**
      * Constructor
      */
     public SimpleMapToken(float xCoord, float yCoord) {
+
         // initialize the instance variables
         x = xCoord;
         y = yCoord;
         radius = 15;
         paint = new Paint();
-        paint.setColor(Color.BLACK);
+        paint.setColor(pickColor());
     }//ctor
 
     /**
